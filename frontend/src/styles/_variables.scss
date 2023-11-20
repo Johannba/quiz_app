@@ -1,0 +1,110 @@
+$placepython: #e08631;
+
+/* Styles for the carousel */
+.carousel {
+    background-color: #333;
+}
+
+.carousel .carousel-inner {
+    background-color: #333;
+}
+
+.carousel .carousel-inner .carousel-item {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.carousel .carousel-inner .carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add your additional custom styles here */
+
+/* Styles for the upload form */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background: url('fitness-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.programs,
+.trainers,
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

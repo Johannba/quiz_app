@@ -1,0 +1,18 @@
+{
+  "app.js": "http://localhost:9091/js/app.js",
+  "entrypoints": {
+    "app": {
+      "assets": {
+        "js": [
+          "http://localhost:9091/js/runtime.js",
+          "http://localhost:9091/js/vendors-node_modules_bootstrap_dist_js_bootstrap_bundle_js-node_modules_webpack-dev-server_cl-2fd0a9.js",
+          "http://localhost:9091/js/app.js"
+        ]
+      }
+    }
+  },
+  "js/vendors-node_modules_bootstrap_dist_js_bootstrap_bundle_js-node_modules_webpack-dev-server_cl-2fd0a9.js": "http://localhost:9091/js/vendors-node_modules_bootstrap_dist_js_bootstrap_bundle_js-node_modules_webpack-dev-server_cl-2fd0a9.js",
+  "runtime.js": "http://localhost:9091/js/runtime.js",
+  "vendors/.gitkeep": "http://localhost:9091/vendors/.gitkeep",
+  "vendors/images/.gitkeep": "http://localhost:9091/vendors/images/.gitkeep"
+}

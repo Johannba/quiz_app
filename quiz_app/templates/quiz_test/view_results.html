@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+      <!-- quiz/templates/quiz/view_results.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Your Results</h1>
+    <ul>
+        {% for user_response in user_responses %}
+            <li>{{ user_response.question.question_text }} - {{ user_response.selected_choice.choice_text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+{% endblock content %}

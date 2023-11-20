@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+{% block title %}Quiz{% endblock title %}
+<!-- quiz/templates/quiz/question_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question List</title>
+</head>
+<body>
+    <h1>Question List</h1>
+    <ul>
+        {% for question in questions %}
+            <li>{{ question.question_text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+
+{% endblock content %}
